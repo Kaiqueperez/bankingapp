@@ -1,6 +1,13 @@
 import * as S from './style'
+import DashBoardContent from '../DashboarContent/index';
+import Productsconteiner from '../ProductsConteiner/index';
+import LogoutConteiner from '../LogoutConteiner/index';
 
-const GridConteinerText = () => {
+
+
+
+const Dashboard = () => {
+
     const sideNavTextContent = {
         Home: 'Home',
         Products: 'Products',
@@ -11,7 +18,7 @@ const GridConteinerText = () => {
     }
     return(
 
-        <S.TaskContainer>
+        <S.TaskContainer >
             <S.SideNavegation>
                 <S.sidenavHome>
                     <img src='/Vector.png' alt=''/>
@@ -86,15 +93,19 @@ const GridConteinerText = () => {
                         
                     </div>
                 </S.sidenavPromotes>
-                
+
+               <LogoutConteiner/>
                 
             </S.SideNavegation>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
+
+            <DashBoardContent/>
+            
+            
+            
+            
 
         </S.TaskContainer>
     )
 }
 
-export default GridConteinerText
+export default Dashboard

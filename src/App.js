@@ -1,5 +1,6 @@
+import DashBooard from './Components/Dashbooard';
 import Header from './Components/Header';
-import GridConteiner from './Components/SideNavegation';
+
 
 
 
@@ -7,9 +8,9 @@ function App() {
   return (
     <> 
    <Header/>
-   <GridConteiner/></>
+   <DashBooard />
    
-   
+   </>
   
    
   );

@@ -8,6 +8,8 @@ import { Icon } from '@iconify/react';
 
 const Header = () =>{
 
+   
+
 
     const textContent = {
         inputText: 'Search',
@@ -24,11 +26,12 @@ const Header = () =>{
             </S.Logo>
 
         
-            <><Icon icon="akar-icons:search"  className='dfodkfok'/></>
-            <S.inputSearch placeholder={textContent.inputText}>
+            <Icon icon="akar-icons:search"  className='dfodkfok'/>
+            <S.inputSearch placeholder={textContent.inputText} >
                 
             </S.inputSearch>
             <S.navConteiner>
+                    
                     <S.navButton>{textContent.buttonText}</S.navButton>
                     <S.navLinks> <img src='/Message.png' alt='nav'/></S.navLinks>
                     
