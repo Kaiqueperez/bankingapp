@@ -2,6 +2,7 @@ import * as S from './style'
 import FulllIncomeConteiner from '../FullIncomeConteiner/index';
 import { React } from 'react';
 import ProductsConteiner from '../ProductsConteiner/index';
+import CommentsConteiner from '../Comments/index';
 
 
 
@@ -81,7 +82,10 @@ const DashBoardContent = () => {
                 </S.ConteinerOverview>
 
                 <FulllIncomeConteiner/>
+
                 <ProductsConteiner/>
+
+                <CommentsConteiner/>
                 
                 
             </S.DashboardConteiner>

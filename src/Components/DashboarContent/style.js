@@ -23,7 +23,7 @@ export const DashboardConteiner = styled.div`
    
 `
 export const ConteinerOverview = styled.div`
-    height: 24.6875em;
+    height: 27.6875em;;
     width: 39.8125em;
     border-radius: 15px;
     padding: 25px;

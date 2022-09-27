@@ -48,8 +48,7 @@ export const ProductsValue = styled.div`
 
 `
 export const AllProductsConteiner = styled.div`
-        width: inherit;
-        height: inherit;
+       
         text-align: center;
         padding: 33px;
         

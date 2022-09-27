@@ -15,7 +15,7 @@ export const Conteiner = styled.div`
     grid-column-start: 1;
     grid-column-end: 2;
     position: relative;
-    bottom: 190px;
+    bottom: 118px;
 
     #Total-income-Conteiner{
         display: flex;

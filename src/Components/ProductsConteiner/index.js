@@ -1,5 +1,4 @@
 import * as S from './style'
-
 import { useEffect, useState } from 'react';
 import GetProduct from '../services/GetProducts';
 
