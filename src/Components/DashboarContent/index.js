@@ -13,7 +13,20 @@ const DashBoardContent = () => {
         
     
     }
-   
+
+    const aleNumbersIncome = new Uint32Array(1);
+    crypto.getRandomValues(aleNumbersIncome);
+
+    const numbersAleIncome = new Uint8Array(1);
+    crypto.getRandomValues(numbersAleIncome);
+
+    const numbersAlePercentege = new Uint8Array(1);
+    crypto.getRandomValues(numbersAlePercentege);
+
+    const numbersAleCustumer = new Uint16Array(1);
+    crypto.getRandomValues(numbersAleCustumer);
+
+
     
 
     return(
@@ -41,15 +54,15 @@ const DashBoardContent = () => {
                            
                             <div>
                             <p>Custumers</p>
-                            <div className='custom-number'>17.656</div>
+                            <div className='custom-number'>{numbersAleCustumer}</div>
 
                             </div>
-                            <div className='percentage'>8</div>
+                            <div className='percentage'>{numbersAlePercentege}%</div>
                         </div>
 
                         <div id='income'>
                         <p>Income</p>
-                            <div className='income-number'> $$ 45,3737 Recebe api</div>
+                            <div className='income-number'> ${aleNumbersIncome},{numbersAleIncome}</div>
                             
                         </div>
                     </S.overviewBody>

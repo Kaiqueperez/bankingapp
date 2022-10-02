@@ -3,7 +3,7 @@ import { Cssvariables } from "../Dashbooard/style";
 
 
 export const Conteiner = styled.div`
-    height: 18.9375em;
+    height: 22.9375em;
     width: 39.6875em;
     padding: 25px;
     border-radius: 15px;
@@ -47,19 +47,14 @@ export const Selector = styled.select`
 
 export const IncomeMonthsConteiner = styled.div`
     background-color: white;
-    //height: 18.9375em;
-    //width: 39.6875em;
+    height: 22.9375em;
+    width: 39.6875em;
     display: flex;
     justify-content: space-around;
-`
-export const MonthVolume = styled.div `
-    
 
-    div{
-        width: 20px;
-        height: 45px;
-        border-radius: 5px 5px 0px 0px;
+    .chartDataConteiner{
+        width: 100%;
+        margin-right: 20px
     }
-    
-
 `
+

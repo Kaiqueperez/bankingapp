@@ -9,7 +9,7 @@ const Cssvariables = {
 
 export const headerConteiner = styled.header `
     width: 100%;
-    background-color: #E5E5E5;
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;

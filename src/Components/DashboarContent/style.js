@@ -13,11 +13,12 @@ export const DashboardConteiner = styled.div`
 
         grid-column-start: 1;
         grid-column-end: 3;
+
         p{
         font-size: ${Cssvariables.fontSizeNumber};
         font-weight: bolder;
-
-    }
+        padding: 10px 0px 10px 0px;
+        margin: 0;}
     }
    
    
@@ -61,6 +62,8 @@ export const overviewBody = styled.div`
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
+    align-items: center;
+    gap: 51px;
 
     #customer{
         background-color: #EFEFEF;
@@ -71,9 +74,7 @@ export const overviewBody = styled.div`
         align-items: center;
         justify-content: space-evenly;
         
-        p{
-            
-        }
+       
         .custom-number{
             font-size: ${Cssvariables.fontSizeNumber};
             font-weight: bolder;
@@ -83,7 +84,7 @@ export const overviewBody = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #02EF36;
+        color: #468955;
         background-color: #D9D9D9;
         width: 2.4375em;
         height: 1.875em;

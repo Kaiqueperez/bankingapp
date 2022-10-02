@@ -1,7 +1,6 @@
 import * as S from './style'   
 import { Icon } from '@iconify/react';
-import GetAPI from '../services/GetAPI';
-import { useState, useEffect } from 'react';
+import { ChartData } from '../ChartData';
 
 const FulllIncomeConteiner = () => {
 
@@ -12,13 +11,6 @@ const FulllIncomeConteiner = () => {
         option3:'Last Month',
     }
 
-    
-
-    const [months, setMonths] = useState([])
-
-    useEffect(() => {
-        GetAPI().then(res => {setMonths(res)})
-    }, [])
 
     return(
         <S.Conteiner>
@@ -37,13 +29,10 @@ const FulllIncomeConteiner = () => {
             </div>
             <S.IncomeMonthsConteiner>
                     
-                    {months.map(month => 
-                        <S.MonthVolume key={month.Id}>
-                            
-                            <div style={{ backgroundColor: month.primaryColor}}></div>
-                            <h5>{month.name}</h5>
-                            
-                        </S.MonthVolume>)}
+                    <div className='chartDataConteiner'>
+                        <ChartData/>
+                    </div>
+                    
                   
             </S.IncomeMonthsConteiner>
         </S.Conteiner>
@@ -51,6 +40,5 @@ const FulllIncomeConteiner = () => {
 }
 
 export default FulllIncomeConteiner
-
 
 

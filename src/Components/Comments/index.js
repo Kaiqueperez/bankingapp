@@ -1,6 +1,8 @@
 import * as S from './style'
 
 
+
+
 const CommentsConteiner = () => {
 
     const textContents = {
@@ -12,7 +14,7 @@ const CommentsConteiner = () => {
     return(
         <S.Commentsconteiner>
             <div >
-                <p className='titleee'>{textContents.title}</p>
+                <p className='titleeeComent' >{textContents.title}</p>
                 <div className='paragraphConteiner'> 
                     <p>{textContents.paragraph}</p>
                     <p>{textContents.paragraphh}</p>
