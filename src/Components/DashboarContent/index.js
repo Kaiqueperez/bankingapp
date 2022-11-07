@@ -3,16 +3,13 @@ import FulllIncomeConteiner from '../FullIncomeConteiner/index';
 import { React } from 'react';
 import ProductsConteiner from '../ProductsConteiner/index';
 import CommentsConteiner from '../Comments/index';
+import { textContentDC } from '../Database';
 
 
 
 const DashBoardContent = () => {
     
-    const textContent = {
-        titleinit: 'Welcome to our online experience',
-        
     
-    }
 
     const aleNumbersIncome = new Uint32Array(1);
     crypto.getRandomValues(aleNumbersIncome);
@@ -70,7 +67,7 @@ const DashBoardContent = () => {
                     
 
                     <S.UsersMocka>
-                        <h3>{textContent.titleinit}</h3>
+                        <h3>{textContentDC.titleinit}</h3>
                         <div id='UsersConteiner'>
                           
                             <img src='/fotouser.png' alt=''/>

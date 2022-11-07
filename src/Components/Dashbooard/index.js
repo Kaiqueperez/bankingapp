@@ -1,21 +1,14 @@
 import * as S from './style'
 import DashBoardContent from '../DashboarContent/index';
-import Productsconteiner from '../ProductsConteiner/index';
 import LogoutConteiner from '../LogoutConteiner/index';
+import { sideNavTextContent } from '../Database';
 
 
 
 
 const Dashboard = () => {
 
-    const sideNavTextContent = {
-        Home: 'Home',
-        Products: 'Products',
-        Customers: 'Customers',
-        Shop:'Shop',
-        Income: 'Income',
-        Promotes: 'Promotes'
-    }
+    
     return(
 
         <S.TaskContainer >

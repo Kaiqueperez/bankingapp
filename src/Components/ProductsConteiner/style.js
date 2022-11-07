@@ -58,5 +58,11 @@ export const AllProductsConteiner = styled.div`
             padding: 12px 60px 12px 60px;
             border: 0.5px solid;
             border-radius: ${Cssvariables.borderRaduis};
+
+            :hover{
+        cursor: ${Cssvariables.cursourLink};
         }
+
+        
+    }
 `

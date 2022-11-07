@@ -17,7 +17,7 @@ export const headerConteiner = styled.header `
 
     .dfodkfok{
         position: relative;
-        left: 166px;
+        left: 35px;
         color: #8E8E8E;
         
     }
@@ -42,6 +42,9 @@ export const Logo = styled.div`
         height: 20px;
         cursor: ${Cssvariables.cursourLink};
     }
+`
+export const inputConteiner = styled.div `
+
 `
 export const inputSearch = styled.input`
     background-color: #D9D9D9;

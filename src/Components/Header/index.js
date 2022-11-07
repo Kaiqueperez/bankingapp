@@ -1,21 +1,11 @@
 
 import * as S from './style'
-
 import { Icon } from '@iconify/react';
-
-
-
+import { textContentHead } from '../Database';
 
 const Header = () =>{
 
-   
 
-
-    const textContent = {
-        inputText: 'Search',
-        buttonText: '+ Create'
-    
-    }
     return(
 
         
@@ -25,14 +15,16 @@ const Header = () =>{
                 <img className='kdeokds' src='/Logo.png' alt=''/>
             </S.Logo>
 
-        
-            <Icon icon="akar-icons:search"  className='dfodkfok'/>
-            <S.inputSearch placeholder={textContent.inputText} >
-                
-            </S.inputSearch>
+            <S.inputConteiner>
+                <Icon icon="akar-icons:search"  className='dfodkfok'/>
+                <S.inputSearch placeholder={textContentHead.inputText} />
+                    
+            </S.inputConteiner>
+          
+
             <S.navConteiner>
                     
-                    <S.navButton>{textContent.buttonText}</S.navButton>
+                    <S.navButton>{textContentHead.buttonText}</S.navButton>
                     <S.navLinks> <img src='/Message.png' alt='nav'/></S.navLinks>
                     
                 </S.navConteiner>

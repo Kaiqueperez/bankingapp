@@ -40,6 +40,10 @@ export const sidenavHome = styled.div`
     gap: ${Cssvariables.gaP};
     align-items: center;
     border-radius: ${Cssvariables.borderRaduis};
+
+    :hover{
+        cursor: ${Cssvariables.cursourLink};
+    }
     
 
 
@@ -70,6 +74,10 @@ export const sidenavProducts = styled.div`
         gap: ${Cssvariables.gaP};
         align-items: center;
     }
+
+    :hover{
+        cursor: ${Cssvariables.cursourLink};
+    }
     
     
     
@@ -95,7 +103,9 @@ export const sidenavCustomers = styled.div`
         align-items: center;
     }
     
-    
+    :hover{
+        cursor: ${Cssvariables.cursourLink};
+    }
     
 
 `
@@ -119,7 +129,9 @@ export const sidenavShop = styled.div`
         align-items: center;
     }
     
-    
+    :hover{
+        cursor: ${Cssvariables.cursourLink};
+    }
     
 
 `
@@ -143,7 +155,9 @@ export const sidenavIncome = styled.div`
         align-items: center;
     }
     
-    
+    :hover{
+        cursor: ${Cssvariables.cursourLink};
+    }
     
 
 `
@@ -168,7 +182,9 @@ export const sidenavPromotes = styled.div`
     }
     
     
-    
+    :hover{
+        cursor: ${Cssvariables.cursourLink};
+    }
 
 `
 // Customers, Shop, Income, Promotes
