@@ -8,17 +8,17 @@ const CommentsConteiner = () => {
     
     return(
         <S.Commentsconteiner>
-            <div >
+            <S.CommentsContent >
                 <p className='titleeeComent' >{textContentsComments.title}</p>
                 <div className='paragraphConteiner'> 
                     <p>{textContentsComments.paragraph}</p>
                     <p>{textContentsComments.paragraphh}</p>
                 </div>
-            </div>
+            </S.CommentsContent>
 
-            <div className='loremconteiner'>
+            <S.LoremConteiner >
                 <p>{textContentsComments.lorem}</p>
-            </div>
+            </S.LoremConteiner>
         </S.Commentsconteiner>
     )
 

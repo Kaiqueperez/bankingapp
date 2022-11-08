@@ -8,7 +8,7 @@ import { GlobalStyle } from './Components/theme/Globalstyle';
 function App() {
   return (
     <>
-    <GlobalStyle/>
+      <GlobalStyle />
       <Header />
       <DashBooard />
     </>

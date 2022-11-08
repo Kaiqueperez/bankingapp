@@ -13,7 +13,7 @@ const DashBoardContent = () => {
 
     const aleNumbersIncome = new Uint32Array(1);
     crypto.getRandomValues(aleNumbersIncome);
-
+    
     const numbersAleIncome = new Uint8Array(1);
     crypto.getRandomValues(numbersAleIncome);
 
@@ -81,11 +81,7 @@ const DashBoardContent = () => {
                             <div className='Bar-bar'></div>
 
                             <img src='/fotouser.png' alt=''/>
-                            
-
-
-                           
-                            
+    
                         </div>
                     </S.UsersMocka>
                     

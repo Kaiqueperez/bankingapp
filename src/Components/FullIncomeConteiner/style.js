@@ -1,5 +1,6 @@
 import styled, {  } from "styled-components";
-import { Cssvariables } from "../Dashbooard/style";
+import { Cssvariables } from "../theme/theme";
+
 
 
 export const Conteiner = styled.div`

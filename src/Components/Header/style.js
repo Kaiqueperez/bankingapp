@@ -45,6 +45,11 @@ export const Logo = styled.div`
 `
 export const inputConteiner = styled.div `
 
+    @media (max-width: 1200px) {
+        display: none;
+
+    }
+
 `
 export const inputSearch = styled.input`
     background-color: #D9D9D9;
@@ -61,6 +66,11 @@ export const navConteiner = styled.div`
     margin-right: 49px;
     height: 58px; 
     width: 360px;
+
+    @media (max-width: 1200px) {
+        display: none;
+
+    }
 `
 
 export const navButton = styled.button`

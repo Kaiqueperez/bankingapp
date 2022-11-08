@@ -11,23 +11,25 @@ export const Commentsconteiner = styled.div`
     border-radius: 15px;
     border-top: 0.5px solid #c9c9c9;
 
-    .titleeeComent{
 
-        font-size: 20px;
-        font-weight: bolder;
-    }
-
-    .paragraphConteiner{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .loremconteiner{
+`
+export const LoremConteiner = styled.div`
         height: 103px;
         width: 220px;
         line-height: 20px;
         display: inline-block;
-    }
+`
 
+export const CommentsContent = styled.div`
 
+        .titleeeComent{
+
+        font-size: 20px;
+        font-weight: bolder;
+        }
+
+        .paragraphConteiner{
+        display: flex;
+        justify-content: space-between;
+        }
 `

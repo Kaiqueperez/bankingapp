@@ -1,19 +1,5 @@
 import styled from "styled-components";
-
-
- export const Cssvariables =  
-     {borderRaduis: '30px',
-     cursourLink: 'pointer',
-     gaP: '21px',
-     primarycolor: 'white',
-     secondcolor: '#E5E5E5;',
-     fontSizeNumber: '35px',
-     }
-    
-     
-    
-
-
+import { Cssvariables } from "../theme/theme";
 
 export const TaskContainer = styled.div`
   display: grid;
@@ -78,9 +64,6 @@ export const sidenavProducts = styled.div`
     :hover{
         cursor: ${Cssvariables.cursourLink};
     }
-    
-    
-    
 
 `
 export const sidenavCustomers = styled.div`
@@ -187,4 +170,3 @@ export const sidenavPromotes = styled.div`
     }
 
 `
-// Customers, Shop, Income, Promotes

@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { Cssvariables } from "../Dashbooard/style";
+import { Cssvariables } from "../theme/theme";
+
 
 export const PopuProductsConteiner = styled.div`
             height: 586px;

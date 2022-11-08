@@ -1,5 +1,6 @@
-import styled, {  } from "styled-components";
-import { Cssvariables } from "../Dashbooard/style";
+import styled, { } from "styled-components";
+import { Cssvariables } from "../theme/theme";
+
 
 export const DashboardConteiner = styled.div`
    background-color: #E5E5E5;
@@ -103,7 +104,7 @@ export const overviewBody = styled.div`
         }
     }
 `
-export const UsersMocka = styled.div `
+export const UsersMocka = styled.div`
     
 
     #UsersConteiner{
